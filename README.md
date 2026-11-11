@@ -27,4 +27,4 @@ The Railway Infrastructure as Code configuration declares one API service from t
 
 ## Arithmetic
 
-`costs.mjs` records the November 11, 2026 price inputs and calculates the article's illustrative subtotals. Vercel memory is deliberately left as a formula because allocation and overlapping instance lifetimes must be supplied. The calculator is not a provider quote or capacity benchmark. Add storage, networking, observability, taxes, and account-specific credits for a full estimate.
+`costs.mjs` records the November 11, 2026 price inputs and calculates the article's illustrative subtotals. Vercel assumes 2 GB per instance and 17 aggregate billable instance-hours (34 GB-hours); this is an independent hypothetical input, not a measured concurrency result. The calculator is not a provider quote or capacity benchmark. Add storage, networking, observability, taxes, and account-specific credits for a full estimate.
